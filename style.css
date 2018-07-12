@@ -1,3 +1,39 @@
 .price {
     font-weight: bold;  
 }
+
+h4 {
+    text-decoration: underline gray;
+
+}
+
+.nav-tabs .nav-link {
+    border-top: 4px solid transparent;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+
+/* adds margin to the top of decription tab */
+.nav {
+    margin-top: 2rem;
+}
+
+/* changes the tabs to same color */
+.nav-link {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+/* adds a border and padding to top of descriptions */
+.tab-pane {
+    border-top: solid 1px gray;
+    margin-top: 1.25rem;
+    padding: .25rem;
+}
