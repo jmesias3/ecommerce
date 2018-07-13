@@ -3,10 +3,25 @@
     height: 2rem;
 }
 
+.nav-btn{
+    color:white;
+    background-color: gray;
+    border: none;
+}
+
 .navbar {
     background-color: gray;
     color: white;
     margin-bottom: 2rem;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0 {
+    border: solid 1px white;
+    color: white;
+}
+
+a#navbarDropdown {
+    color: white;
 }
 
 .main-content {
@@ -39,11 +54,17 @@ h4 {
 }
 
 /* changes the tabs to same color */
-.nav-link {
-    color: #495057;
+.info-toggle {
+    color: black;
     background-color: #fff;
     border-color: #dee2e6 #dee2e6 #fff;
 }
+
+.nav-link {
+    color: #495057;
+}
+
+
 
 /* adds a border and padding to top of descriptions */
 .tab-pane {
@@ -77,4 +98,16 @@ h4 {
 
 .product-info {
     margin-top: 2rem;
+}
+
+.modal-backdrop {
+   display: none;
+}
+
+h5#exampleModalLongTitle {
+    color: black;
+}
+
+.label-copy {
+    color: black;
 }
