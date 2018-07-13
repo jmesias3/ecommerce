@@ -1,3 +1,17 @@
+.logo {
+    width: 2rem;
+    height: 2rem;
+}
+
+.navbar {
+    background-color: gray;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.main-content {
+    margin-top: 5rem;
+}
 .price {
     font-weight: bold;  
 }
@@ -36,4 +50,31 @@ h4 {
     border-top: solid 1px gray;
     margin-top: 1.25rem;
     padding: .25rem;
+}
+
+.similar-items {
+    height: 200px;
+    width: 200px;
+}
+
+.potato-carousel-img {
+    height: 300px;
+    width: 240px;
+}
+
+.footer {
+    height: 5rem;
+    background-color: rgb(35, 160, 0);
+    margin-top: 2rem;
+
+}
+
+.footer-text {
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
+}
+
+.product-info {
+    margin-top: 2rem;
 }
