@@ -1,7 +1,7 @@
-// display
-function onLoadFunction() {
-    show("#loadAlert");
-}
+// hide alert
+$("#closeAlert").click(function(){
+    $("#topAlert").hide();
+});
 
 
 //modal alert
