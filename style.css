@@ -112,11 +112,8 @@ h5#exampleModalLongTitle {
     color: black;
 }
 
-.loadAlert {
-    justify-content: center
-}
-.loadAlert p {
-    margin: 1.3rem 0;
-    align-content: center;
-    text-align: center;
+#topAlert{
+    background: bisque;
+    color: black;
+    margin-bottom: 0rem;
 }
