@@ -37,3 +37,7 @@ $("#modalSubmit").click(function(){
     }
 
 });
+
+
+// popover enabled
+$("[data-toggle=popover]").popover();

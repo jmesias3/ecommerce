@@ -27,7 +27,7 @@
 
     <!-- alert -->
     <div class="alert alert-primary" id="topAlert" role="alert">
-        Not looking for potatoes? Browse our other products <a href="#">Here.</a>  
+        Not looking for potatoes? Browse our other products <a class="nav-redirect" href="#">Here.</a>  
         <button type="button" id="closeAlert" class="close" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
@@ -155,9 +155,23 @@
             <p class= "price">Price</p>
             <p class="price">$30</p>
             <p class="price">Select a Quantity</p>
-            <!-- insert number input selector -->
+            <!-- qty dropdown -->
+            <div class="dropdown">
+            <button class="btn qty-dropdown btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Quantity : 1
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">2</a>
+                <a class="dropdown-item" href="#">3</a>
+                <a class="dropdown-item" href="#">4</a>
+                <a class="dropdown-item" href="#">5</a>
+                <a class="dropdown-item" href="#">6</a>
+                <a class="dropdown-item" href="#">7</a>
+            </div>
+            </div>
 
             <!-- INSERT ADD TO CART BUTTON -->
+            <button type="button" class="add-to-cart btn btn-primary mt-3">Add to Cart</button>
         <!-- description end -->
         </div>
     <!-- row 1 end -->
@@ -211,7 +225,15 @@
     <!-- container fluid footer start -->
     <div class="footer container-fluid">
         <h6 class="footer-text">Everything Potatoes</h6>
+
         <!-- BUTTON NEEED HELP -->
+
+        <!-- <button type="button" class="btn-lg btn-secondary btn-block" data-toggle="popover" data-placement="top" data-content="This popover is on top.">Popover on top </button> -->
+
+       <!-- <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" data-placement="top" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> -->
+
+        <button type="button" class="btn help-button" data-toggle="popover" title="Need Help?" data-content="Ask us a question" data-placement="top">Need Help?</button>
+    
     <!-- container fluid end -->
     </div>
 
