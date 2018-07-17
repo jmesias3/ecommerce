@@ -117,3 +117,29 @@ h5#exampleModalLongTitle {
     color: black;
     margin-bottom: 0rem;
 }
+
+
+#modalNameError {
+    color: white;
+    display: none;
+    padding: 0.3rem;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: .2rem;
+    background: #ff2124;
+}
+
+#modalEmailError{
+    color: white;
+    display: none;
+    padding: 0.3rem;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: .2rem;
+    background: #ff2124;
+}
+
+#completionMessage {
+    color: black;
+    /* display: none; */
+}
